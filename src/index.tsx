@@ -15,7 +15,7 @@ const LINKING_ERROR =
 type ButtonProps = {
   color: string;
   style: ViewStyle;
-} & Pick<RNButtonProps, 'onPress' | 'testID'>;
+} & Pick<RNButtonProps, 'onPress' | 'testID' | 'title'>;
 
 const ComponentName = 'ButtonView';
 
